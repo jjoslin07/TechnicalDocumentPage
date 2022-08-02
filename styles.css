@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #f7f7f7;
+}
+#navbar {
+	position: fixed;
+	min-width: 290px;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 100%;
+	border-right: solid;
+	border-color: rgba(0, 22, 22, 0.4);
+}
+#nav-header {
+	padding-left: 2rem;
+	margin-bottom: 2rem;
+}
+.main-section {
+	margin-bottom: 3rem;
+	max-width: 100%;
+}
+h1 {
+	font-size: 1.4rem;
+}
+nav > ul > li {
+	list-style: none;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+nav > ul > li > a {
+	text-decoration: none;
+	color: black;
+}
+ul {
+	padding: 0;
+}
+#main-doc {
+	position: absolute;
+	margin-left: 510px;
+	padding: 20px;
+	margin-bottom: 110px;
+}
+main {
+	display: block;
+}
+.header {
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+img {
+	height: 400px;
+}
+p {
+	font-size: 1.1rem;
+	line-height: 25px;
+	max-width: 90%;
+}
+h2 {
+	font-size: 1.4rem;
+	font-weight: normal;
+	background-color: aqua;
+	min-width: 300px;
+	max-width: 450px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.fa-basketball {
+	color: #f78c00;
+}
+ul[class='fa-ul'] > li {
+	padding-bottom: 5px;
+}
+.stats {
+	background-color: lightcyan;
+	font-size: 1.2rem;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+	width: 350px;
+	padding: 10px;
+}
+.stats:first-of-type {
+	border-radius: 10px 10px 0 0;
+}
+.stats:last-of-type {
+	border-radius: 0 0 10px 10px;
+}
+code {
+	padding: 1rem;
+}
+#Lebron_Raymone_James > p > a {
+	color: red;
+	text-decoration: none;
+}
+@media only screen and (max-width: 815px) {
+	/* For mobile phones: */
+	#navbar ul {
+		height: 207px;
+		text-align: center;
+	}
+	#nav-header {
+		text-align: center;
+	}
+
+	#navbar {
+		background-color: white;
+		position: absolute;
+		top: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		max-height: 275px;
+		border: none;
+		z-index: 1;
+	}
+
+	#main-doc {
+		position: relative;
+		margin-left: 0;
+		margin-top: 375px;
+	}
+	.header {
+		text-align: center;
+	}
+	p {
+		font-size: 1.1rem;
+		line-height: 25px;
+	}
+}
