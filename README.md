@@ -2,7 +2,9 @@
 
 ## Build a Technical Documentation Page
 
-### User Stories
+### freeCodeCamp Project for Responsive Web Design learning path. Check it out [here](https://jjoslin07.github.io/TechnicalDocumentPage/)
+
+User Stories
 
 1. You can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation)
 2. Within the #main-doc element, you can see several section elements, each with a class of main-section. There should be a minimum of five
